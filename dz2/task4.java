@@ -33,26 +33,30 @@ public class task4 {
             if (act.equals("+")) {
                 int sum = a + b;
                 System.out.printf("Сумма %d и %d равна: %d", a, b, sum);
-                fw.write("Сумма " + a + " и "+ b + " равна " + sum + "\n");
+                //fw.write("Сумма " + a + " и "+ b + " равна " + sum + "\n");
+                fw.write(a + " + "+ b + " = " + sum + "\n");
             }
             else if (act.equals("-")) {
                 int diff = a - b;
                 System.out.printf("Разность %d и %d равна: %d", a, b, diff);
-                fw.write("Разность " + a + " и "+ b + " равна " + diff + "\n");
+                //fw.write("Разность " + a + " и "+ b + " равна " + diff + "\n");
+                fw.write(a + " - "+ b + " = " + diff + "\n");
             }
             else if (act.equals("*")) {
                 int mult = a * b;
                 System.out.printf("Произведение %d и %d равно: %d", a, b, mult);
-                fw.write("Произведение " + a + " и "+ b + " равно " + mult + "\n");
+                //fw.write("Произведение " + a + " и "+ b + " равно " + mult + "\n");
+                fw.write(a + " * "+ b + " = " + mult + "\n");
             }
             else if (act.equals("/")) {
                 int div = a / b;
                 System.out.printf("Частное %d и %d равно %d", a, b, div);
-                fw.write("Частное " + a + " и "+ b + " равно " + div + "\n");
+                //fw.write("Частное " + a + " и "+ b + " равно " + div + "\n");
+                fw.write(a + " / "+ b + " = " + div + "\n");
             }
             else {
-                System.out.println("Вы ввели какую то ерунду...");
-                fw.write("Некорректный ввод данных:  " + act + "\n");
+                System.out.println("Некорректный ввод данных.");
+                fw.write("Некорректный ввод данных:  " + a + " " + act + " " + b + "\n");
             }
         }
         catch (Exception e) {
