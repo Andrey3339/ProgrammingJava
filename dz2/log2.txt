@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-06-17T18:07:14.494388Z</date>
+  <millis>1687025234494</millis>
+  <nanos>388000</nanos>
+  <sequence>0</sequence>
+  <logger>dz2.task3_1</logger>
+  <level>INFO</level>
+  <class>dz2.task3_1</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Студент Иванов получил 5 по предмету Математика.</message>
+</record>
+<record>
+  <date>2023-06-17T18:07:14.510605100Z</date>
+  <millis>1687025234510</millis>
+  <nanos>605100</nanos>
+  <sequence>1</sequence>
+  <logger>dz2.task3_1</logger>
+  <level>INFO</level>
+  <class>dz2.task3_1</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Студент Петрова получил 4 по предмету Информатика.</message>
+</record>
+<record>
+  <date>2023-06-17T18:07:14.513385700Z</date>
+  <millis>1687025234513</millis>
+  <nanos>385700</nanos>
+  <sequence>2</sequence>
+  <logger>dz2.task3_1</logger>
+  <level>INFO</level>
+  <class>dz2.task3_1</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Студент Краснов получил 5 по предмету Физика.</message>
+</record>
+<record>
+  <date>2023-06-17T18:07:14.514892100Z</date>
+  <millis>1687025234514</millis>
+  <nanos>892100</nanos>
+  <sequence>3</sequence>
+  <logger>dz2.task3_1</logger>
+  <level>INFO</level>
+  <class>dz2.task3_1</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Студент Шевчук получил 5 по предмету Геометрия.</message>
+</record>
+</log>
